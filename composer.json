@@ -1,0 +1,35 @@
+{
+    "name": "test/mentions",
+    "description": "Mention and reply to specific posts and users.",
+    "type": "flarum-extension",
+    "keywords": ["discussion"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Zerner",
+            "email": "toby.zerner@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarum/core/issues",
+        "source": "https://github.com/test/mentions"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\Mentions\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Test Mentions",
+            "icon": {
+                "name": "at",
+                "backgroundColor": "#539EC1",
+                "color": "#fff"
+            }
+        }
+    }
+}
